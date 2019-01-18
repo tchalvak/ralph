@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "ralph",
+  "description": "Ralph react component site for deployment",
   "version": "0.1.0",
   "author": "Roy Ronalds",
   "dependencies": {
@@ -15,7 +15,7 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby", "react", "jamstack"
   ],
   "license": "UNLICENSED",
   "scripts": {
@@ -37,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "git@github.com:tchalvak/ralph.git"
   }
 }
