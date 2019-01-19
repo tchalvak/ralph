@@ -20,8 +20,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop",
-    "develop": "gatsby develop",
+    "start": "gatsby develop -p 4444",
+    "develop": "gatsby develop -p 4444",
     "format": "prettier --write '**/*.js'",
     "test": "jest"
   },
