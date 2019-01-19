@@ -4,7 +4,8 @@ const Bio = (props) => {
   const { person } = props.person || {};
   return (
     <section>
-      <h2>Phone: {person}</h2>
+      <h1>{person.name}</h1>
+      <h2>Phone: {person.phone}</h2>
     </section>
   )
 }
