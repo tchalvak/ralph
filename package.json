@@ -22,6 +22,8 @@
     "build": "gatsby build",
     "start": "gatsby develop -p 4444",
     "develop": "gatsby develop -p 4444",
+    "dev:browse": "xdg-open http://localhost:4444",
+    "deploy": "gatsby build && aws s3 sync --delete public s3://ralph-static/ && echo 'view at: d2trydf572z69q.cloudfront.net'",
     "format": "prettier --write '**/*.js'",
     "test": "jest"
   },
