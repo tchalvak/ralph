@@ -4,7 +4,11 @@ import Bio from "./Bio"
 
 describe("Bio", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<Bio />).toJSON()
+    const person = {
+      name: "Test name",
+      phone: '15556667777'
+    };
+    const tree = renderer.create(<Bio person={{}} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

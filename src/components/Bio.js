@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Bio = (props) => {
-  const { person } = props.person || {};
+  const person = props.person || {};
   return (
     <section>
       <h1>{person.name}</h1>
