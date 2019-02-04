@@ -3,7 +3,7 @@ import renderer from "react-test-renderer"
 import IndexPage from "../pages/index"
 
 describe("IndexPage", () => {
-  it("renders correctly", () => {
+  xit("renders correctly", () => {
     const location = {
       pathname: "/",
     }
