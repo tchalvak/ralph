@@ -14,10 +14,15 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Understanding <br />Artificial Intelligence</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <p>Artificial Intelligence today is a wholly different landscape from the science fiction ideas that were written about 50 years ago.  
+            For example, we have a variety of speech interfaces in the form of devices and tools like Alexa, Siri, Google Home, and more, devices in a box that are nothing similar to the idea of a human in a box.</p>
+          <p>We give these things a voice because they are a new way of working with your computer.  One part of the AI movement is an introduction of new tools; speech instead of a keyboard, speech instead of a screen.</p>
+          <p>Another practical aspect of the AI movement is a force multiplication of simple decision-making. Customer support is an example of this.</p>
+          <p>I can put a customer service support chat on my website so that users can talk to me directly, but if they are in a different timezone, I'm unavailable. 
+          By using an AI, or chatbot, I can provide a reduced experience, for more time in the day and night.  It would always be better if they could talk to me, I'm really good at talking and helping,
+          but if the choice is between me for 1 hour a day and a much less effective chat-bot for 24 hours a day, I am going to give that up to the AI.</p>
           {close}
         </article>
 
