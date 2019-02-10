@@ -1,6 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import IndexPage from '../pages/index'
+import Page2 from '../pages/page-2'
 import { StaticQuery } from 'gatsby'
 
 beforeEach(() => {
@@ -15,13 +15,13 @@ beforeEach(() => {
     )
 })
 
-describe('IndexPage', () => {
+describe('Page 2', () => {
     it('renders correctly', () => {
         const location = {
             pathname: '/',
         }
 
-        const tree = renderer.create(<IndexPage location={location} />).toJSON()
+        const tree = renderer.create(<Page2 location={location} />).toJSON()
         expect(tree).toMatchSnapshot()
     })
 })

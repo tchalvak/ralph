@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page 2 renders correctly 1`] = `
+<div
+  className="page"
+  id="wrapper"
+>
+  <div>
+    <h1>
+      Hi from the second page
+    </h1>
+    <p>
+      Welcome to page 2
+    </p>
+    <a
+      href="/"
+    >
+      Go back to the homepage
+    </a>
+  </div>
+</div>
+`;
