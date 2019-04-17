@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 
-import pic01 from '../images/pic01.jpg'
+import pic01 from '../images/ai_parts.png'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/a-face-profile-brown-scaled.png'
 
@@ -49,7 +50,8 @@ class Main extends React.Component {
                         written about 50 years ago. For example, we have a
                         variety of speech interfaces in the form of devices and
                         tools like Alexa, Siri, Google Home, and more, devices
-                        in a box that are nothing similar to the idea of a human
+                        in a box that are nothing similar to the idea of a{' '}
+                        <em>human</em>
                         in a box.
                     </p>
                     <p>
@@ -59,17 +61,30 @@ class Main extends React.Component {
                         of a keyboard, speech instead of a screen.
                     </p>
                     <p>
-                        Another practical aspect of the AI movement is a force
-                        multiplication of simple decision-making. AI providing
-                        answers simple spoken questions and chat-bots on
-                        websites are an example of this.
+                        Another practical aspect of the AI movement is a{' '}
+                        <strong>force multiplication of</strong> simple
+                        decision-making. AI providing answers simple spoken
+                        questions and chat-bots on websites are an example of
+                        this.
                     </p>
-                    <p>
-                        Because we're lazy, we want to use AI to make our work
-                        easier. Because we're smart, we know we need to separate
-                        out the myth of AI from the real, useful applications of
-                        AI as a tool.
-                    </p>
+                    <ul>
+                        <li>
+                            Because we're lazy, we want to use AI to make our
+                            work easier.
+                        </li>
+                        <li>
+                            Because we're smart, we know we need to separate out
+                            the myth of AI from the real, useful applications of
+                            AI as a tool.
+                        </li>
+                        <li>
+                            The first thing to do is to break down the myths and
+                            metaphors and find out what AI can do
+                            <Link to="/presentation">
+                                <button type="button">NOW</button>
+                            </Link>
+                        </li>
+                    </ul>
                     {close}
                 </article>
 
@@ -85,33 +100,33 @@ class Main extends React.Component {
                         <img src={pic02} alt="" />
                     </span>
                     <p>
-                        The presentation isn't ready yet, check back at the end
-                        of April or contact me and I will notify you when the
-                        presentation is available online!
+                        The presentation isn't finished yet, check back at the
+                        end of April or contact me and I will notify you when
+                        the presentation is available online!
                     </p>
                     {close}
                 </article>
 
                 <article
-                    id="citations"
+                    id="bibliography"
                     className={`${
-                        this.props.article === 'citations' ? 'active' : ''
+                        this.props.article === 'bibliography' ? 'active' : ''
                     } ${this.props.articleTimeout ? 'timeout' : ''}`}
                     style={{ display: 'none' }}
                 >
-                    <h2 className="major">Citations</h2>
+                    <h2 className="major">Bibliography</h2>
                     <span className="image main">
                         <img src={pic02} alt="" />
                     </span>
                     <p>
-                        To provide citations of my research, I will make both
-                        the citations and the slides available here once they're
-                        complete.
+                        To provide a bibliography of my research, I will make
+                        both the citations and the slides available here once
+                        they're complete.
                     </p>
                     <div>
-                        The presentation isn't ready yet, check back at the end
-                        of April or contact me and I will notify you when the
-                        presentation is available online!
+                        The presentation isn't finished yet, check back at the
+                        end of April or contact me and I will notify you when
+                        the presentation is available online!
                     </div>
                     {close}
                 </article>
