@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: 'Ra AI communication',
+        title: 'Artificial Intelligence for Lazy, Smart Professionals',
         author: 'Roy Ronalds',
-        description: 'A site for showcasing AI jamstack integrations.',
+        description: 'A site for understanding how AI can be useful to me.',
     },
     plugins: [
         'gatsby-plugin-react-helmet',

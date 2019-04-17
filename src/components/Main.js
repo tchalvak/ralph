@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic03 from '../images/a-face-profile-brown-scaled.png'
 
 class Main extends React.Component {
     render() {
@@ -60,19 +60,15 @@ class Main extends React.Component {
                     </p>
                     <p>
                         Another practical aspect of the AI movement is a force
-                        multiplication of simple decision-making. Customer
-                        support is an example of this.
+                        multiplication of simple decision-making. AI providing
+                        answers simple spoken questions and chat-bots on
+                        websites are an example of this.
                     </p>
                     <p>
-                        I can put a customer service support chat on my website
-                        so that users can talk to me directly, but if they are
-                        in a different timezone, I'm unavailable. By using an
-                        AI, or chatbot, I can provide a reduced experience, for
-                        more time in the day and night. It would always be
-                        better if they could talk to me, I'm really good at
-                        talking and helping, but if the choice is between me for
-                        1 hour a day and a much less effective chat-bot for 24
-                        hours a day, I am going to give that up to the AI.
+                        Because we're lazy, we want to use AI to make our work
+                        easier. Because we're smart, we know we need to separate
+                        out the myth of AI from the real, useful applications of
+                        AI as a tool.
                     </p>
                     {close}
                 </article>
@@ -128,18 +124,21 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">About</h2>
-                    <span className="image main">
-                        <img src={pic03} alt="" />
-                    </span>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur et adipiscing
-                        elit. Praesent eleifend dignissim arcu, at eleifend
-                        sapien imperdiet ac. Aliquam erat volutpat. Praesent
-                        urna nisi, fringila lorem et vehicula lacinia quam.
-                        Integer sollicitudin mauris nec lorem luctus ultrices.
-                        Aliquam libero et malesuada fames ac ante ipsum primis
-                        in faucibus. Cras viverra ligula sit amet ex mollis
-                        mattis lorem ipsum dolor sit amet.
+                        I'm Roy Ronalds, I am a Software Engineer / Software
+                        Architect working in the field of web applications that
+                        integrate with artificial intelligence. I do a lot of
+                        open source work on github:{' '}
+                        <a
+                            href="https://github.com/tchalvak"
+                            className="icon fa-github"
+                        >
+                            <span className="label">GitHub</span> My Github
+                            Profile
+                        </a>
+                        <span className="image main">
+                            <img src={pic03} alt="" />
+                        </span>
                     </p>
                     {close}
                 </article>
@@ -160,7 +159,7 @@ class Main extends React.Component {
                                 href="mailto:roy.ronal.ds@gmail.com"
                                 rel="nofolow"
                             >
-                                <button type="button">Email Me</button>
+                                <button type="button">Email Me</button>{' '}
                             </a>
                             <small>(roy.ronal.ds@gmail.com)</small>
                         </li>
