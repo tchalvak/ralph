@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Page 2 renders correctly 1`] = `
+exports[`Presentation renders correctly 1`] = `
 <div
   className="page"
   id="wrapper"

@@ -96,14 +96,14 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">Presentation</h2>
+                    <a href="https://slides.com/royronalds/ai/live">
+                        <button type="button">View Presentation Live</button>
+                    </a>
+                    {/*
                     <span className="image main">
                         <img src={pic02} alt="" />
                     </span>
-                    <p>
-                        The presentation isn't finished yet, check back at the
-                        end of April or contact me and I will notify you when
-                        the presentation is available online!
-                    </p>
+                    */}
                     {close}
                 </article>
 
@@ -124,9 +124,8 @@ class Main extends React.Component {
                         they're complete.
                     </p>
                     <div>
-                        The presentation isn't finished yet, check back at the
-                        end of April or contact me and I will notify you when
-                        the presentation is available online!
+                        Citations and links will be available here, check back
+                        at the end of April, 2019!
                     </div>
                     {close}
                 </article>

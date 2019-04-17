@@ -26,10 +26,10 @@ exports[`IndexPage renders correctly 1`] = `
             className="inner"
           >
             <h1>
-              Ralph
+              AI
             </h1>
             <p>
-              An AI integration showcase.
+              Artificial Intelligence for Lazy, Smart Professionals
             </p>
           </div>
         </div>
@@ -48,7 +48,15 @@ exports[`IndexPage renders correctly 1`] = `
                 href="javascript:;"
                 onClick={[Function]}
               >
-                Work
+                Presentation
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                Citations
               </a>
             </li>
             <li>
@@ -90,9 +98,11 @@ exports[`IndexPage renders correctly 1`] = `
           <h2
             className="major"
           >
-            Understanding 
-            <br />
             Artificial Intelligence
+            <br />
+            for Lazy,
+            <br />
+            Smart Professionals
           </h2>
           <span
             className="image main"
@@ -103,17 +113,44 @@ exports[`IndexPage renders correctly 1`] = `
             />
           </span>
           <p>
-            Artificial Intelligence today is a wholly different landscape from the science fiction ideas that were written about 50 years ago. For example, we have a variety of speech interfaces in the form of devices and tools like Alexa, Siri, Google Home, and more, devices in a box that are nothing similar to the idea of a human in a box.
+            Artificial Intelligence today is a wholly different landscape from the science fiction ideas that were written about 50 years ago. For example, we have a variety of speech interfaces in the form of devices and tools like Alexa, Siri, Google Home, and more, devices in a box that are nothing similar to the idea of a
+             
+            <em>
+              human
+            </em>
+            in a box.
           </p>
           <p>
             We give these things a voice because they are a new way of working with your computer. One part of the AI movement is an introduction of new tools; speech instead of a keyboard, speech instead of a screen.
           </p>
           <p>
-            Another practical aspect of the AI movement is a force multiplication of simple decision-making. Customer support is an example of this.
+            Another practical aspect of the AI movement is a
+             
+            <strong>
+              force multiplication of
+            </strong>
+             simple decision-making. AI providing answers simple spoken questions and chat-bots on websites are an example of this.
           </p>
-          <p>
-            I can put a customer service support chat on my website so that users can talk to me directly, but if they are in a different timezone, I'm unavailable. By using an AI, or chatbot, I can provide a reduced experience, for more time in the day and night. It would always be better if they could talk to me, I'm really good at talking and helping, but if the choice is between me for 1 hour a day and a much less effective chat-bot for 24 hours a day, I am going to give that up to the AI.
-          </p>
+          <ul>
+            <li>
+              Because we're lazy, we want to use AI to make our work easier.
+            </li>
+            <li>
+              Because we're smart, we know we need to separate out the myth of AI from the real, useful applications of AI as a tool.
+            </li>
+            <li>
+              The first thing to do is to break down the myths and metaphors and find out what AI can do
+              <a
+                href="/presentation"
+              >
+                <button
+                  type="button"
+                >
+                  NOW
+                </button>
+              </a>
+            </li>
+          </ul>
           <div
             className="close"
             onClick={[Function]}
@@ -121,7 +158,7 @@ exports[`IndexPage renders correctly 1`] = `
         </article>
         <article
           className=" "
-          id="work"
+          id="presentation"
           style={
             Object {
               "display": "none",
@@ -131,7 +168,35 @@ exports[`IndexPage renders correctly 1`] = `
           <h2
             className="major"
           >
-            Work
+            Presentation
+          </h2>
+          <a
+            href="https://slides.com/royronalds/ai/live"
+          >
+            <button
+              type="button"
+            >
+              View Presentation Live
+            </button>
+          </a>
+          <div
+            className="close"
+            onClick={[Function]}
+          />
+        </article>
+        <article
+          className=" "
+          id="bibliography"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <h2
+            className="major"
+          >
+            Bibliography
           </h2>
           <span
             className="image main"
@@ -142,11 +207,11 @@ exports[`IndexPage renders correctly 1`] = `
             />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+            To provide a bibliography of my research, I will make both the citations and the slides available here once they're complete.
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.
-          </p>
+          <div>
+            Citations and links will be available here, check back at the end of April, 2019!
+          </div>
           <div
             className="close"
             onClick={[Function]}
@@ -166,16 +231,28 @@ exports[`IndexPage renders correctly 1`] = `
           >
             About
           </h2>
-          <span
-            className="image main"
-          >
-            <img
-              alt=""
-              src="test-file-stub"
-            />
-          </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.
+            I'm Roy Ronalds, I am a Software Engineer / Software Architect working in the field of web applications that integrate with artificial intelligence. I do a lot of open source work on github:
+             
+            <a
+              className="icon fa-github"
+              href="https://github.com/tchalvak"
+            >
+              <span
+                className="label"
+              >
+                GitHub
+              </span>
+               My Github Profile
+            </a>
+            <span
+              className="image main"
+            >
+              <img
+                alt=""
+                src="test-file-stub"
+              />
+            </span>
           </p>
           <div
             className="close"
@@ -196,77 +273,40 @@ exports[`IndexPage renders correctly 1`] = `
           >
             Contact
           </h2>
-          <form
-            action="#"
-            method="post"
+          <p>
+            You can:
+          </p>
+          <ul
+            className="actions"
           >
-            <div
-              className="field half first"
-            >
-              <label
-                htmlFor="name"
+            <li>
+              <a
+                href="mailto:roy.ronal.ds@gmail.com"
+                rel="nofolow"
+                title="mailto:roy.ronal.ds@gmail.com"
               >
-                Name
-              </label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-              />
-            </div>
-            <div
-              className="field half"
-            >
-              <label
-                htmlFor="email"
-              >
-                Email
-              </label>
-              <input
-                id="email"
-                name="email"
-                type="text"
-              />
-            </div>
-            <div
-              className="field"
-            >
-              <label
-                htmlFor="message"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-              />
-            </div>
-            <ul
-              className="actions"
-            >
-              <li>
-                <input
-                  className="special"
-                  type="submit"
-                  value="Send Message"
-                />
-              </li>
-              <li>
-                <input
-                  type="reset"
-                  value="Reset"
-                />
-              </li>
-            </ul>
-          </form>
+                <button
+                  type="button"
+                >
+                  Email Me
+                </button>
+                 
+              </a>
+              <small>
+                (roy.ronal.ds@gmail.com)
+              </small>
+            </li>
+          </ul>
+          <p>
+            Or check out one of my social profiles below.
+          </p>
           <ul
             className="icons"
           >
             <li>
               <a
                 className="icon fa-twitter"
-                href="#"
+                href="https://twitter.com/tchalvak"
               >
                 <span
                   className="label"
@@ -278,7 +318,7 @@ exports[`IndexPage renders correctly 1`] = `
             <li>
               <a
                 className="icon fa-facebook"
-                href="#"
+                href="https://www.facebook.com/tchalvak"
               >
                 <span
                   className="label"
@@ -289,20 +329,8 @@ exports[`IndexPage renders correctly 1`] = `
             </li>
             <li>
               <a
-                className="icon fa-instagram"
-                href="#"
-              >
-                <span
-                  className="label"
-                >
-                  Instagram
-                </span>
-              </a>
-            </li>
-            <li>
-              <a
                 className="icon fa-github"
-                href="#"
+                href="https://github.com/tchalvak"
               >
                 <span
                   className="label"

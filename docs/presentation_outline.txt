@@ -1,0 +1,150 @@
+Artificial Intelligence for Lazy Smart Professionals
+
+
+A. Greeting
+AI is sweeping across the software world like a storm.  I chose to talk about Artificial Intelligence both because I want to understand it more deeply to develop AI, and because I want to teach others like you how to use it practically!
+B. Capture audience interest
+Begin with information about your topic that will capture the attention of the audience, such as an interesting fact about your topic that you discovered in your research.
+Science Fiction has told us stories about Artificial Intelligence for more than a century. [Cite date of early Asimov story].  
+
+http://www.dieselpunks.org/m/blogpost?id=3366493%3ABlogPost%3A49656
+ (Use this Imagery and picture)
+
+
+So we have heard stories of Artificial Intelligence as malevolent forces or benevolent helper.  
+I want you to visualize those rich stories for a moment, god I love them.  Ok, now just throw them out for duration of this chat.  AI is a hammer.  AI is a keyboard.  AI is a tool.
+C. Introduce your topic
+I want to help all of us use AI, as it exists today.  Not in 10 years.  Not 100 years ago.  How can we use it best this year?  
+To use it well, we need to break down the myths and understand its nature now.
+D. Transition
+What is AI good at?  What is AI bad at? What can we use it for?
+Body
+Things that AI can do fall on a continuum. On the extreme left is “following rules” and on the right is “pattern matching”There is a continuum between “following rules” and “pattern matching”, and on the left AI is getting good, and on the right it’s still a “work in progress”.
+[Following Rules] <=====> [Matching Patterns]
+[Cite ISMA pg 34]
+
+[Slide]
+AI is bad at:
+    • Everything.[*3]
+    • Vision
+    • Speech (let’s take Alexa)
+    • Hearing
+    • Motor Control (not hitting walls, for example)
+    • Reading Comprehension
+    • Writing (Natural Language Generation)
+    • The list goes on
+
+[*3] No Seriously, everything! Today, this month, this year, If I can get a human child to do the work instead, I will get much better results.
+
+(Quotation from the Darpa Challenge Incident Here)
+
+[Slide]
+AI is good at:
+    • Fast
+    • Big Data
+    • Repetition
+    • Cheap Replication
+    • Force Multiplication (I’ll get back to this one )
+    • Pulling articles from the internet
+    • Chess [*]
+    • Working 24/7
+
+[*] Who could have guessed that AI would get good at chess before they got good at handling stairs.
+
+
+
+
+[Slide]
+So if a human is almost always better than AI, why use AI?
+
+    • Sleep
+    • Relax
+    • Be somewhere else
+    • Go on vacation
+    • Don’t work overnight
+    • Don’t do busywork
+
+We’re not always there, we want to sleep, we want to relax.  Maybe we are away on vacation, and we need to detect faces at the front door of our home. AI is a force multiplier, by which I mean that when I am ok with doing something badly 200 times instead of myself doing it excellently 5 times, it’s time for AI.  Or worse, if the alternative is an action gets done 0 times, because I’m 4 countries away and asleep, then 200 times badly is much better than 0 times well.  
+Force multiplication.
+[Some examples of force multiplication, citations]
+
+My force, time, and attention can be multiplied in the form of AI bots.  Let’s discuss an example of that.
+
+    • Customer Service
+In the Customer Service industry, it’s often standard to have overnight phone banks answering calls from customers at all hours, 24/7.  This is an area where AI can multiply our force.  By acting as a front-line for questions, AI chatbots can pull out useful information and present it to the customer.  Indeed, systems of static phone questions and answers have become common, just try calling your internet service provider to get a rate decrease.
+Ref: Chatbots, what are they good for
+Evidence/Support:
+Bank of America introduced an AI chatbot in their App recently.
+
+    • Sub Point:
+    • Evidence/Support
+
+    • Sub Point:
+    • Evidence/Support 
+
+Transition:
+
+Main pt 2:
+AI is great for force multiplication.
+    • Sub-point
+    • Support/evidence
+Transition
+Force Multiplication
+    • Sub-point
+    • Support/evidence
+    • Sub-point
+    • Support/evidence
+
+Transition
+Ok, but AI also allows us to use computers easier.
+
+AI can also level up our interactions with computers.  As a programmer, I’ve touch-typed for 20 years now, and as a direct result, I suffer from Carpel Tunnel wrist pain.  It’s not natural for my hands to be in the cramped position, so my hands have 
+Replace your keyboard, AI as interface
+    • Sub-point
+    • Support/evidence
+    • Sub-point
+    • Support/evidence
+Man has, as it were, become a kind of prosthetic God. When he puts on all his auxiliary organs he is truly magnificent; but those organs have not grown on to him and they still give him much trouble at times.
+—Sigmund Freud, Civilization and Its Discontents (1930)
+
+Transition
+Signal that the conclusion of the speech is approaching.
+
+Conclusion
+So how can we use AI well?
+    • Ignore the tempting old metaphor is that AI is an artificial mind
+    • Instead, think of it as a keyboard
+    • Think of it as a tool, not even one tool, but many
+    • Think of it as a work replicator, if you do something repetitive in the digital space, that is an area to consider looking for AI solutions
+Brief summary of your topic
+I wanted to help us break up our old ideas of what AI is, so that we can use it more effectively today, and use it to the most of its potential.
+B.
+Review main points
+    1. Main point
+    2. Main point
+    3. Main point
+C.
+Close with impact
+Finish with a strong statement; consider mirroring your attention-grabbing opening.
+
+Artificial Intelligence is spreading out to all kinds of industries.  There is benefit in just getting familiar with Ai as it exists now, because you will see it pop up more and more in different places in the future!
+
+
+Interview questions:
+
+What is the most interesting application of Artificial Intelligence that you have seen lately?
+
+How do you think a layperson can most easily use AI today to improve their lives?
+
+What is the most advantageous way that you have used AI in your professional life?
+
+Details:
+I’ll do the interview on google hangouts, and I would like to record the interview.  Content in the interview may appear on a website representing my AI presentation later.
+
+
+Robots falling down:
+https://www.youtube.com/watch?v=g0TaYhjpOfo
+Darpa Challenge 2015
+
+Edwards, Benj (December 9, 2008). "The computer mouse turns 40"
+

@@ -1,6 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import Page2 from '../pages/page-2'
+import Presentation from '../pages/presentation'
 import { StaticQuery } from 'gatsby'
 
 beforeEach(() => {
@@ -8,20 +8,22 @@ beforeEach(() => {
         render({
             site: {
                 siteMetadata: {
-                    title: `Test site name`,
+                    title: `Ralph AI`,
                 },
             },
         })
     )
 })
 
-describe('Page 2', () => {
+describe('Presentation', () => {
     it('renders correctly', () => {
         const location = {
             pathname: '/',
         }
 
-        const tree = renderer.create(<Page2 location={location} />).toJSON()
+        const tree = renderer
+            .create(<Presentation location={location} />)
+            .toJSON()
         expect(tree).toMatchSnapshot()
     })
 })
