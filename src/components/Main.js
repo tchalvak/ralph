@@ -34,8 +34,11 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">
-                        Understanding <br />
                         Artificial Intelligence
+                        <br />
+                        for Lazy,
+                        <br />
+                        Smart Professionals
                     </h2>
                     <span className="image main">
                         <img src={pic01} alt="" />
@@ -75,33 +78,45 @@ class Main extends React.Component {
                 </article>
 
                 <article
-                    id="work"
+                    id="presentation"
                     className={`${
-                        this.props.article === 'work' ? 'active' : ''
+                        this.props.article === 'presentation' ? 'active' : ''
                     } ${this.props.articleTimeout ? 'timeout' : ''}`}
                     style={{ display: 'none' }}
                 >
-                    <h2 className="major">Work</h2>
+                    <h2 className="major">Presentation</h2>
                     <span className="image main">
                         <img src={pic02} alt="" />
                     </span>
                     <p>
-                        Adipiscing magna sed dolor elit. Praesent eleifend
-                        dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-                        erat volutpat. Praesent urna nisi, fringila lorem et
-                        vehicula lacinia quam. Integer sollicitudin mauris nec
-                        lorem luctus ultrices.
+                        The presentation isn't ready yet, check back at the end
+                        of April or contact me and I will notify you when the
+                        presentation is available online!
                     </p>
+                    {close}
+                </article>
+
+                <article
+                    id="citations"
+                    className={`${
+                        this.props.article === 'citations' ? 'active' : ''
+                    } ${this.props.articleTimeout ? 'timeout' : ''}`}
+                    style={{ display: 'none' }}
+                >
+                    <h2 className="major">Citations</h2>
+                    <span className="image main">
+                        <img src={pic02} alt="" />
+                    </span>
                     <p>
-                        Nullam et orci eu lorem consequat tincidunt vivamus et
-                        sagittis libero. Mauris aliquet magna magna sed nunc
-                        rhoncus pharetra. Pellentesque condimentum sem. In
-                        efficitur ligula tate urna. Maecenas laoreet massa vel
-                        lacinia pellentesque lorem ipsum dolor. Nullam et orci
-                        eu lorem consequat tincidunt. Vivamus et sagittis
-                        libero. Mauris aliquet magna magna sed nunc rhoncus amet
-                        feugiat tempus.
+                        To provide citations of my research, I will make both
+                        the citations and the slides available here once they're
+                        complete.
                     </p>
+                    <div>
+                        The presentation isn't ready yet, check back at the end
+                        of April or contact me and I will notify you when the
+                        presentation is available online!
+                    </div>
                     {close}
                 </article>
 
@@ -137,6 +152,21 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">Contact</h2>
+                    <p>You can:</p>
+                    <ul className="actions">
+                        <li>
+                            <a
+                                title="mailto:roy.ronal.ds@gmail.com"
+                                href="mailto:roy.ronal.ds@gmail.com"
+                                rel="nofolow"
+                            >
+                                <button type="button">Email Me</button>
+                            </a>
+                            <small>(roy.ronal.ds@gmail.com)</small>
+                        </li>
+                    </ul>
+                    <p>Or check out one of my social profiles below.</p>
+                    {/*
                     <form method="post" action="#">
                         <div className="field half first">
                             <label htmlFor="name">Name</label>
@@ -163,24 +193,29 @@ class Main extends React.Component {
                             </li>
                         </ul>
                     </form>
+                    */}
                     <ul className="icons">
                         <li>
-                            <a href="#" className="icon fa-twitter">
+                            <a
+                                href="https://twitter.com/tchalvak"
+                                className="icon fa-twitter"
+                            >
                                 <span className="label">Twitter</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" className="icon fa-facebook">
+                            <a
+                                href="https://www.facebook.com/tchalvak"
+                                className="icon fa-facebook"
+                            >
                                 <span className="label">Facebook</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" className="icon fa-instagram">
-                                <span className="label">Instagram</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="icon fa-github">
+                            <a
+                                href="https://github.com/tchalvak"
+                                className="icon fa-github"
+                            >
                                 <span className="label">GitHub</span>
                             </a>
                         </li>

@@ -8,8 +8,8 @@ const Header = props => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Ralph</h1>
-                <p>An AI integration showcase.</p>
+                <h1>AI</h1>
+                <p>Artificial Intelligence for Lazy, Smart Professionals</p>
             </div>
         </div>
         <nav>
@@ -28,10 +28,20 @@ const Header = props => (
                     <a
                         href="javascript:;"
                         onClick={() => {
-                            props.onOpenArticle('work')
+                            props.onOpenArticle('presentation')
                         }}
                     >
-                        Work
+                        Presentation
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="javascript:;"
+                        onClick={() => {
+                            props.onOpenArticle('citations')
+                        }}
+                    >
+                        Citations
                     </a>
                 </li>
                 <li>
