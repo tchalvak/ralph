@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import Bio from '../components/Bio'
 
 import pic01 from '../images/ai_parts.png'
 import pic02 from '../images/pic02.jpg'
@@ -51,8 +52,7 @@ class Main extends React.Component {
                         variety of speech interfaces in the form of devices and
                         tools like Alexa, Siri, Google Home, and more, devices
                         in a box that are nothing similar to the idea of a{' '}
-                        <em>human</em>
-                        in a box.
+                        <em>human</em> in a box.
                     </p>
                     <p>
                         We give these things a voice because they are a new way
@@ -62,7 +62,7 @@ class Main extends React.Component {
                     </p>
                     <p>
                         Another practical aspect of the AI movement is a{' '}
-                        <strong>force multiplication of</strong> simple
+                        <strong>force multiplication</strong> of simple
                         decision-making. AI providing answers simple spoken
                         questions and chat-bots on websites are an example of
                         this.
@@ -79,10 +79,12 @@ class Main extends React.Component {
                         </li>
                         <li>
                             The first thing to do is to break down the myths and
-                            metaphors and find out what AI can do
-                            <Link to="/presentation">
-                                <button type="button">NOW</button>
-                            </Link>
+                            metaphors and find out what AI can do{' '}
+                            <div>
+                                <Link className="bl" to="/presentation">
+                                    <button type="button">NOW</button>
+                                </Link>
+                            </div>
                         </li>
                     </ul>
                     {close}
@@ -96,7 +98,10 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">Presentation</h2>
-                    <a href="https://slides.com/royronalds/ai/live">
+                    <a
+                        className="bl"
+                        href="https://slides.com/royronalds/ai/live"
+                    >
                         <button type="button">View Presentation Live</button>
                     </a>
                     {/*
@@ -108,25 +113,51 @@ class Main extends React.Component {
                 </article>
 
                 <article
-                    id="bibliography"
+                    id="citations"
                     className={`${
-                        this.props.article === 'bibliography' ? 'active' : ''
+                        this.props.article === 'citations' ? 'active' : ''
                     } ${this.props.articleTimeout ? 'timeout' : ''}`}
                     style={{ display: 'none' }}
                 >
-                    <h2 className="major">Bibliography</h2>
+                    <h2 className="major">Citations</h2>
                     <span className="image main">
                         <img src={pic02} alt="" />
                     </span>
-                    <p>
-                        To provide a bibliography of my research, I will make
-                        both the citations and the slides available here once
-                        they're complete.
-                    </p>
-                    <div>
-                        Citations and links will be available here, check back
-                        at the end of April, 2019!
-                    </div>
+                    <h6>Bibliography</h6>
+                    <ul>
+                        <li>
+                            Brynjolfsson, E., &amp; McAfee, A. (2014). The
+                            Machine Age. New York, NY: W. W. Norton & Company.
+                        </li>
+                        <li>
+                            Edwards, Benj (December 9, 2008). "The computer
+                            mouse turns 40"
+                        </li>
+                        <li>
+                            Sigmund Freud (1930) "Civilization and Its
+                            Discontents"
+                        </li>
+                    </ul>
+                    <h6>Image Sources</h6>
+                    <ul>
+                        <li>
+                            <a
+                                rel="nofollow"
+                                href="http://www.dieselpunks.org/m/blogpost?id=3366493%3ABlogPost%3A49656"
+                            >
+                                IRON MAN Robot Image
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                rel="nofollow"
+                                href="https://promo.bankofamerica.com/erica"
+                            >
+                                Bank of America Erica Image
+                            </a>
+                        </li>
+                    </ul>
+                    <p />
                     {close}
                 </article>
 
@@ -138,22 +169,29 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">About</h2>
-                    <p>
-                        I'm Roy Ronalds, I am a Software Engineer / Software
-                        Architect working in the field of web applications that
-                        integrate with artificial intelligence. I do a lot of
-                        open source work on github:{' '}
-                        <a
-                            href="https://github.com/tchalvak"
-                            className="icon fa-github"
-                        >
-                            <span className="label">GitHub</span> My Github
-                            Profile
-                        </a>
-                        <span className="image main">
-                            <img src={pic03} alt="" />
-                        </span>
-                    </p>
+                    <Bio
+                        person={{
+                            name: 'Roy Ronalds',
+                            phone: '+15855197658',
+                        }}
+                    >
+                        <p>
+                            I'm Roy Ronalds, I am a Software Engineer / Software
+                            Architect working in the field of web applications
+                            that integrate with artificial intelligence. I do a
+                            lot of open source work on github:{' '}
+                            <a
+                                href="https://github.com/tchalvak"
+                                className="icon fa-github"
+                            >
+                                <span className="label">GitHub</span> My Github
+                                Profile
+                            </a>
+                            <span className="image main">
+                                <img src={pic03} alt="" />
+                            </span>
+                        </p>
+                    </Bio>
                     {close}
                 </article>
 
@@ -169,6 +207,7 @@ class Main extends React.Component {
                     <ul className="actions">
                         <li>
                             <a
+                                className="bl"
                                 title="mailto:roy.ronal.ds@gmail.com"
                                 href="mailto:roy.ronal.ds@gmail.com"
                                 rel="nofolow"
