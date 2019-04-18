@@ -6,8 +6,18 @@ const Bio = props => {
     const { children } = props
     return (
         <section>
-            <h1>{person.name}</h1>
-            <h2>{person.phone}</h2>
+            <h2>{person.name}</h2>
+            <h3>{person.number}</h3>
+            {person.email && (
+                <h3>
+                    <a href={`mailto:${person.email}`}>{person.email}</a>
+                </h3>
+            )}
+            {person.avatar && (
+                <span className="image main">
+                    <img src={person.avatar} alt="" />
+                </span>
+            )}
             {children}
         </section>
     )

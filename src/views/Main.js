@@ -4,8 +4,8 @@ import { Link } from 'gatsby'
 import Bio from '../components/Bio'
 
 import pic01 from '../images/ai_parts.png'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/a-face-profile-brown-scaled.png'
+import picma from '../images/machine_age.png'
+import avatarUrl from '../images/a-face-profile-brown-scaled.png'
 
 class Main extends React.Component {
     render() {
@@ -120,9 +120,6 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">Citations</h2>
-                    <span className="image main">
-                        <img src={pic02} alt="" />
-                    </span>
                     <h6>Bibliography</h6>
                     <ul>
                         <li>
@@ -172,7 +169,6 @@ class Main extends React.Component {
                     <Bio
                         person={{
                             name: 'Roy Ronalds',
-                            phone: '+15855197658',
                         }}
                     >
                         <p>
@@ -184,12 +180,17 @@ class Main extends React.Component {
                                 href="https://github.com/tchalvak"
                                 className="icon fa-github"
                             >
-                                <span className="label">GitHub</span> My Github
-                                Profile
+                                <span className="label">GitHub</span>
+                                My Github Profile
                             </a>
-                            <span className="image main">
-                                <img src={pic03} alt="" />
-                            </span>
+                        </p>
+                        <span className="image main">
+                            <img src={picma} alt="" />
+                        </span>
+                        <p>
+                            This speech originated with a project for the
+                            Toastmasters Peer2Peer club via the Toastmasters
+                            "Effective Coaching" pathway.
                         </p>
                     </Bio>
                     {close}
@@ -203,20 +204,24 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">Contact</h2>
-                    <p>You can:</p>
-                    <ul className="actions">
-                        <li>
+                    <Bio
+                        person={{
+                            name: 'Roy Ronalds',
+                            number: '+1 585 519 7658',
+                            email: 'roy.ronalds+ai@gmail.com',
+                            avatar: avatarUrl,
+                        }}
+                    >
+                        <p>
                             <a
-                                className="bl"
-                                title="mailto:roy.ronal.ds@gmail.com"
-                                href="mailto:roy.ronal.ds@gmail.com"
-                                rel="nofolow"
+                                href="https://github.com/tchalvak"
+                                className="icon fa-github"
                             >
-                                <button type="button">Email Me</button>{' '}
+                                <span className="label">GitHub</span> My Github
+                                Profile
                             </a>
-                            <small>(roy.ronal.ds@gmail.com)</small>
-                        </li>
-                    </ul>
+                        </p>
+                    </Bio>
                     <p>Or check out one of my social profiles below.</p>
                     {/*
                     <form method="post" action="#">
