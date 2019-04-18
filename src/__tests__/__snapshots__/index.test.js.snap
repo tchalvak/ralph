@@ -118,7 +118,7 @@ exports[`IndexPage renders correctly 1`] = `
             <em>
               human
             </em>
-            in a box.
+             in a box.
           </p>
           <p>
             We give these things a voice because they are a new way of working with your computer. One part of the AI movement is an introduction of new tools; speech instead of a keyboard, speech instead of a screen.
@@ -127,9 +127,9 @@ exports[`IndexPage renders correctly 1`] = `
             Another practical aspect of the AI movement is a
              
             <strong>
-              force multiplication of
+              force multiplication
             </strong>
-             simple decision-making. AI providing answers simple spoken questions and chat-bots on websites are an example of this.
+             of simple decision-making. AI providing answers simple spoken questions and chat-bots on websites are an example of this.
           </p>
           <ul>
             <li>
@@ -140,15 +140,19 @@ exports[`IndexPage renders correctly 1`] = `
             </li>
             <li>
               The first thing to do is to break down the myths and metaphors and find out what AI can do
-              <a
-                href="/presentation"
-              >
-                <button
-                  type="button"
+               
+              <div>
+                <a
+                  className="bl"
+                  href="/presentation"
                 >
-                  NOW
-                </button>
-              </a>
+                  <button
+                    type="button"
+                  >
+                    NOW
+                  </button>
+                </a>
+              </div>
             </li>
           </ul>
           <div
@@ -171,6 +175,7 @@ exports[`IndexPage renders correctly 1`] = `
             Presentation
           </h2>
           <a
+            className="bl"
             href="https://slides.com/royronalds/ai/live"
           >
             <button
@@ -186,7 +191,7 @@ exports[`IndexPage renders correctly 1`] = `
         </article>
         <article
           className=" "
-          id="bibliography"
+          id="citations"
           style={
             Object {
               "display": "none",
@@ -196,7 +201,7 @@ exports[`IndexPage renders correctly 1`] = `
           <h2
             className="major"
           >
-            Bibliography
+            Citations
           </h2>
           <span
             className="image main"
@@ -206,12 +211,42 @@ exports[`IndexPage renders correctly 1`] = `
               src="test-file-stub"
             />
           </span>
-          <p>
-            To provide a bibliography of my research, I will make both the citations and the slides available here once they're complete.
-          </p>
-          <div>
-            Citations and links will be available here, check back at the end of April, 2019!
-          </div>
+          <h6>
+            Bibliography
+          </h6>
+          <ul>
+            <li>
+              Brynjolfsson, E., & McAfee, A. (2014). The Machine Age. New York, NY: W. W. Norton & Company.
+            </li>
+            <li>
+              Edwards, Benj (December 9, 2008). "The computer mouse turns 40"
+            </li>
+            <li>
+              Sigmund Freud (1930) "Civilization and Its Discontents"
+            </li>
+          </ul>
+          <h6>
+            Image Sources
+          </h6>
+          <ul>
+            <li>
+              <a
+                href="http://www.dieselpunks.org/m/blogpost?id=3366493%3ABlogPost%3A49656"
+                rel="nofollow"
+              >
+                IRON MAN Robot Image
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://promo.bankofamerica.com/erica"
+                rel="nofollow"
+              >
+                Bank of America Erica Image
+              </a>
+            </li>
+          </ul>
+          <p />
           <div
             className="close"
             onClick={[Function]}
@@ -231,29 +266,37 @@ exports[`IndexPage renders correctly 1`] = `
           >
             About
           </h2>
-          <p>
-            I'm Roy Ronalds, I am a Software Engineer / Software Architect working in the field of web applications that integrate with artificial intelligence. I do a lot of open source work on github:
-             
-            <a
-              className="icon fa-github"
-              href="https://github.com/tchalvak"
-            >
-              <span
-                className="label"
+          <section>
+            <h1>
+              Roy Ronalds
+            </h1>
+            <h2>
+              +15855197658
+            </h2>
+            <p>
+              I'm Roy Ronalds, I am a Software Engineer / Software Architect working in the field of web applications that integrate with artificial intelligence. I do a lot of open source work on github:
+               
+              <a
+                className="icon fa-github"
+                href="https://github.com/tchalvak"
               >
-                GitHub
+                <span
+                  className="label"
+                >
+                  GitHub
+                </span>
+                 My Github Profile
+              </a>
+              <span
+                className="image main"
+              >
+                <img
+                  alt=""
+                  src="test-file-stub"
+                />
               </span>
-               My Github Profile
-            </a>
-            <span
-              className="image main"
-            >
-              <img
-                alt=""
-                src="test-file-stub"
-              />
-            </span>
-          </p>
+            </p>
+          </section>
           <div
             className="close"
             onClick={[Function]}
@@ -281,6 +324,7 @@ exports[`IndexPage renders correctly 1`] = `
           >
             <li>
               <a
+                className="bl"
                 href="mailto:roy.ronal.ds@gmail.com"
                 rel="nofolow"
                 title="mailto:roy.ronal.ds@gmail.com"
