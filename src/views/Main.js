@@ -98,11 +98,8 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">Presentation</h2>
-                    <a
-                        className="bl"
-                        href="https://slides.com/royronalds/ai/live"
-                    >
-                        <button type="button">View Presentation Live</button>
+                    <a className="bl" href="https://slides.com/royronalds/ai/">
+                        <button type="button">View Presentation</button>
                     </a>
                     {/*
                     <span className="image main">
