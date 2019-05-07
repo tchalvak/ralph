@@ -22,7 +22,11 @@ yarn build (not yet working, will build to GAE)
 
 ## Deploy
 
-Deploys on commit, or you can try using surge:
+CICD deploys to https://ai.royronalds.com
+
+##Custom Deploy
+
+You can also try using surge:
 
 ```sh
 npm install -g surge
