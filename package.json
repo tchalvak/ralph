@@ -4,6 +4,7 @@
     "version": "0.1.0",
     "author": "Roy Ronalds",
     "dependencies": {
+        "core-js": "2",
         "gatsby": "^2.0.76",
         "gatsby-plugin-manifest": "^2.0.9",
         "gatsby-plugin-offline": "^2.0.16",

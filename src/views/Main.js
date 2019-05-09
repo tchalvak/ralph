@@ -81,9 +81,12 @@ class Main extends React.Component {
                             The first thing to do is to break down the myths and
                             metaphors and find out what AI can do{' '}
                             <div>
-                                <Link className="bl" to="/presentation">
+                                <a
+                                    className="bl"
+                                    href="https://slides.com/royronalds/ai/"
+                                >
                                     <button type="button">NOW</button>
-                                </Link>
+                                </a>
                             </div>
                         </li>
                     </ul>
