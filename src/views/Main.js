@@ -63,7 +63,7 @@ class Main extends React.Component {
                     <p>
                         Another practical aspect of the AI movement is a{' '}
                         <strong>force multiplication</strong> of simple
-                        decision-making. AI providing answers simple spoken
+                        decision-making. AI providing answers to simple spoken
                         questions and chat-bots on websites are an example of
                         this.
                     </p>
