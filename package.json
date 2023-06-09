@@ -5,7 +5,7 @@
     "author": "Roy Ronalds",
     "dependencies": {
         "core-js": "2",
-        "gatsby": "^2.0.76",
+        "gatsby": "^4.25.7",
         "gatsby-plugin-manifest": "^2.0.9",
         "gatsby-plugin-offline": "^2.0.16",
         "gatsby-plugin-react-helmet": "^3.0.2",
